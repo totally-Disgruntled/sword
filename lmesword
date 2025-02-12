@@ -1,0 +1,12 @@
+def greet():
+    print("Hello, World!")
+
+def display_servers():
+    servers = ["LMEsword", "LMEselect"]
+    print("Here are the server addresses:")
+    for server in servers:
+        print(f"- {server}")
+
+if __name__ == "__main__":
+    greet()
+    display_servers()
